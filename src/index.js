@@ -45,9 +45,9 @@ class Unit {
 		);
 		if (enemy.health <= 0) {
 			const fightersLeft = fighters.filter(f => f.health > 0);
-			console.log(`${reset}***Unit ${enemy.name} dieded***`);
+			console.log(`${reset}***Unit ${enemy.name} died***`);
 			console.log(`${name} destroyed ${enemy.name}`);
-			console.log(`There are ${fightersLeft.length} fighters still left`);
+			console.log(`There are ${fightersLeft.length} fighter(s) still left`);
 		}
 	}
 
